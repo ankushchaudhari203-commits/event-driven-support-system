@@ -1,3 +1,10 @@
+> **Note:**  
+> This system currently runs as a single FastAPI service with a local database.  
+> The architecture is intentionally designed to evolve into a distributed setup
+> (e.g., message queues, external services) without changing core business logic.
+
+[Event-Driven Support System Architecture](diagrams/event-driven-architecture.jpg)
+
 ## ⚡ Event-Driven Design
 
 This system is built using an **event-driven architecture**, where **events are the source of truth** instead of direct state mutations.
