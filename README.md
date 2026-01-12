@@ -2,7 +2,8 @@
 > This system currently runs as a single FastAPI service with a local database.  
 > The architecture is intentionally designed to evolve into a distributed setup
 > (e.g., message queues, external services) without changing core business logic.
-[
+
+
 (https://github.com/ankushchaudhari203-commits/event-driven-support-system/blob/main/app/diagrams/event-driven-architecture.jpg)
 
 ## ⚡ Event-Driven Design
